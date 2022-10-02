@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/robobg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 75px;
+    position: fixed;
+}
+.navbar .logo{
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    letter-spacing: 1.5;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.navbar ul{
+    float: right;
+}
+.navbar li{
+    display: inline-block;
+    list-style: none;
+}
+.navbar li  a{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0px 15px;
+    color: aliceblue;
+    text-decoration: none;
+}
