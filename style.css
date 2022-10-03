@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 #title{
     
     /*background-image: url("https://i.pinimg.com/736x/db/1b/61/db1b614d498e14e8483e36570348f1a8.jpg");*/
@@ -10,14 +15,18 @@
   background-clip: padding-box;
 }
 
-h1{
+/* h1{
     font-family: Montserrat-Black;
     font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
+    color: rgb(236, 243, 243)  ;
+} */
+
+h5{
+    color: white;
+    text-align: justify;
 }
-
-
 
 
 
@@ -57,6 +66,25 @@ footer a{
     padding: 14px 20px;
     float: left;
 }
+
+.waviy {
+    position: relative;
+  }
+  .waviy span {
+    font-family: Montserrat-Black;
+    position: relative;
+    display: inline-block;
+    font-size: 50px;
+    color: #fff;
+    /* text-transform: uppercase; */
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
 
 
 
