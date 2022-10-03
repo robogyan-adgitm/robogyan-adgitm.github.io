@@ -1,0 +1,65 @@
+#title{
+    
+    /*background-image: url("https://i.pinimg.com/736x/db/1b/61/db1b614d498e14e8483e36570348f1a8.jpg");*/
+    background-image: url(./newbackground.jpg);
+    color: white;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+  background-repeat:no-repeat;
+  background-clip: padding-box;
+}
+
+h1{
+    font-family: Montserrat-Black;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+
+
+
+.container-fluid{
+    padding: 3% 5%;
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.3rem;
+    /* font-size: 2rem; */
+    font-weight: bold;
+}
+
+.navbar{
+    padding: 0 0 4.5rem ;
+}
+
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.btn-download{
+    margin: 5% 3% 5% 0;
+}
+footer{
+    background-color: #333;
+    overflow: hidden;
+    }
+
+    
+
+footer a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+}
+
+
+
+
+
+  
