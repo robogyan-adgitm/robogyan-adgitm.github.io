@@ -1,3 +1,4 @@
+# Basic info
 ## How to contribute
 1. Fork the repositry.
 2. Clone the repositry.
@@ -26,7 +27,7 @@
 5. Type git clone and paste the link.
 6. Press enter.
 
-### MEASURES TO REDUCE SPAM
+# MEASURES TO REDUCE SPAM
 
 ## SPAMMY PULL/MERGE REQUESTS WILL BE LABELED AS “SPAM.”
 Maintainers: label spammy requests “spam” and close them. PR/MRs labeled “spam” won’t count toward Hacktoberfest. Contributors with 2+ spammy PR/MRs are disqualified.
