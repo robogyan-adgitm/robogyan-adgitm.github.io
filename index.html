@@ -38,8 +38,15 @@
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
+
+          
+            id="nav-icon-animation">
+            <span></span>
+            <span></span>
+            <span></span>
+          
         >
-          <span class="navbar-toggler-icon"></span>
+          <!-- <span class="navbar-toggler-icon"></span> -->
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
@@ -143,6 +150,15 @@
     integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
     crossorigin="anonymous"
   ></script>
+
+  <!-- navbar hamburger animation script -->
+  <script>
+  $(document).ready(function(){
+    $('#nav-icon-animation').click(function(){
+      $(this).toggleClass('open');
+    });
+  });
+</script>
 
 </body>  
 </html>  
