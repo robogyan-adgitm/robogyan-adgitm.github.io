@@ -95,7 +95,7 @@ For more information on syncing forks [read this article from Github](https://he
 - Are you getting paid for this?
   - Sadly no. But we think we should. This is 100% unofficial and we do it for fun, fame and glory.
 - Who are you and why are you doing this?
-  - We are two programmers from India [Ashish](https://www.linkedin.com/in/ashishthehulk/)
+  - We are two programmers from India [Ashish](https://www.linkedin.com/in/ashishhhh/)
   and [Mohit Gupta](https://github.com/Mohit-15). We are doing this because we love Open Source and Hacktoberfest. We want to make it easier for people to get started with Hacktoberfest and Open Source.
 - Why are you not using digitalocean?
   - Because we only know JavaScript and suck at servers. We use [now](https://zeit.co/now) instead.
