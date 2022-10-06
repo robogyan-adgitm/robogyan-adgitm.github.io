@@ -23,7 +23,7 @@ html {
 
 body {
   font-family: var(--ubuntuMono);
-  background-color: var(--black-500);
+  background-color: var(--black-500) !important;
   color: var(--neutral-100);
 }
 
