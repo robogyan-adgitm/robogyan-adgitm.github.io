@@ -1,62 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&family=Ubuntu:wght@500&display=swap');
 
-:root{
+:root {
     // colors 
-    --neutral-100:#fff;
-    --neutral-500:#b1b1b1;
-    --black-100:#08080A;
-    --black-500:#03111C;
-    --pink-500:#DC3545;
+    --neutral-100: #fff;
+    --neutral-500: #b1b1b1;
+    --black-100: #08080A;
+    --black-500: #03111C;
+    --pink-500: #DC3545;
 
     //fonts 
-    --ubuntuMono:'Ubuntu Mono',
+    --ubuntuMono: 'Ubuntu Mono',
         monospace;
-    --ubuntu:'Ubuntu',
+    --ubuntu: 'Ubuntu',
         sans-serif;
 
 
 }
 
-*,*::after,*::before{
+*,
+*::after,
+*::before {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     font-size: 100%;
 }
 
-body{
+body {
     font-family: var(--ubuntuMono);
     background-color: var(--black-500);
     color: var(--neutral-100);
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: var(--neutral-100);
 }
 
-img{
+img {
     object-fit: cover;
 }
 
-h1,h2,h3,p{
+h1,
+h2,
+h3,
+p {
     font-size: 1rem;
 }
 
 // header 
-.logo{
-    h1{
+.logo {
+    h1 {
         display: inline-block;
         font-size: 2rem;
         position: relative;
-        &::after{
+
+        &::after {
             content: '';
             position: absolute;
             top: 50%;
@@ -71,7 +77,8 @@ h1,h2,h3,p{
     }
 }
 
-.btn-register,.btn-apply{
+.btn-register,
+.btn-apply {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -82,58 +89,62 @@ h1,h2,h3,p{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transition: all 0.4s ease-in-out;
 
-    img{
+    img {
         width: 1.5rem;
     }
 
-    span{
+    span {
         display: none;
         font-size: 1.3rem;
     }
 
-    &:hover,&:focus{
+    &:hover,
+    &:focus {
         scale: 1.09;
     }
 }
 
-.main-header{
-    &-container{
+.main-header {
+    &-container {
         margin: 1rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
 
-    .navbar{
+    .navbar {
         position: absolute;
         top: 5rem;
         right: 1rem;
-        background-color: var(--neutral-100 );
+        background-color: var(--neutral-100);
         padding: 1rem 2.8rem;
         translate: 0 -400px;
         z-index: 999;
         transition: all 1s ease-in-out;
         border-radius: 0.5rem;
-        &-links{
+
+        &-links {
             display: flex;
             align-items: center;
             flex-direction: column;
             gap: 2rem;
-            
-            li{
+
+            li {
                 font-size: 1.4rem;
-    
-                a{
+
+                a {
                     color: var(--black-500);
                     font-weight: 700;
-                    &:hover,&:focus{
+
+                    &:hover,
+                    &:focus {
                         opacity: 80%;
                     }
                 }
             }
         }
 
-        &-btns{
+        &-btns {
             display: flex;
             align-items: center;
             flex-direction: row;
@@ -141,7 +152,7 @@ h1,h2,h3,p{
         }
     }
 
-    .navbar.active{
+    .navbar.active {
         translate: 0 0;
     }
 }
@@ -161,23 +172,23 @@ h1,h2,h3,p{
         transition: all 0.8s ease-in-out;
         transform-origin: 9px 2px;
 
-        &-2{
+        &-2 {
             opacity: 50%;
         }
     }
 }
 
-.hamburger.active{
-    .line{
-        &-2{
+.hamburger.active {
+    .line {
+        &-2 {
             display: none;
         }
 
-        &-1{
+        &-1 {
             rotate: 405deg;
         }
 
-        &-3{
+        &-3 {
             rotate: -405deg;
         }
     }
@@ -187,14 +198,14 @@ h1,h2,h3,p{
 
 // hero 
 
-.btn-apply{
+.btn-apply {
     width: max-content;
     margin-inline: auto;
     font-size: 1.5rem;
     padding: 0.5rem 2rem;
 }
 
-.hero{
+.hero {
     margin-top: 6rem;
     margin-bottom: 3rem;
     display: grid;
@@ -203,7 +214,7 @@ h1,h2,h3,p{
     min-height: 82vh;
     gap: 3rem;
 
-    &-text{
+    &-text {
         place-self: center;
         text-align: center;
         padding: 0 1rem;
@@ -212,25 +223,27 @@ h1,h2,h3,p{
         flex-direction: column;
         gap: 2rem;
 
-        h1{
+        h1 {
             font-size: 2.5rem;
             line-height: 1.5;
 
         }
-        p{
+
+        p {
             line-height: 1.5;
             font-size: 1rem;
             color: var(--neutral-500);
         }
     }
 
-    &-image{
+    &-image {
         padding-inline: 1rem;
         width: 100%;
         height: 100%;
         max-width: 1100px;
         max-height: 500px;
-        img{
+
+        img {
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             border-radius: 1rem;
             width: 100%;
@@ -243,12 +256,12 @@ h1,h2,h3,p{
 
 // footer 
 
-footer{
+footer {
     margin-block: 2rem;
     margin-top: 0rem;
 }
 
-.footer-container{
+.footer-container {
     margin-inline: auto;
     margin-bottom: 1rem;
     display: grid;
@@ -256,18 +269,19 @@ footer{
     width: 100%;
     max-width: 1200px;
 
-    &-links{
+    &-links {
         display: flex;
         align-items: center;
         flex-direction: row;
         gap: 1rem;
 
-        li{
-            a{
+        li {
+            a {
                 font-size: 1rem;
                 color: var(--neutral-100);
                 transition: all 0.4s ease-in-out;
-                &:hover{
+
+                &:hover {
                     color: var(--pink-500);
                 }
             }
@@ -275,11 +289,12 @@ footer{
     }
 }
 
-.copyright{
+.copyright {
     font-size: 1rem;
     text-align: center;
     color: var(--neutral-500);
-    a{
+
+    a {
         color: var(--pink-500);
         font-weight: 700;
     }
@@ -287,39 +302,41 @@ footer{
 
 @media (min-width:610px) {
 
-    .btn-register{
+    .btn-register {
         padding: 0.5rem 1.5rem;
-        span{
+
+        span {
             display: inline-block;
         }
     }
 
-    .main-header{
-        &-container{
+    .main-header {
+        &-container {
             margin: 1.5rem;
         }
 
-        .navbar{
+        .navbar {
             right: 2rem;
         }
     }
 
-    .hero{
-        &-text{
-            h1{
+    .hero {
+        &-text {
+            h1 {
                 font-size: 3rem;
             }
-            p{
+
+            p {
                 font-size: 1.2rem;
                 padding-inline: 2rem;
             }
         }
     }
 
-    .footer-container{
-        &-links{
-            li{
-                a{
+    .footer-container {
+        &-links {
+            li {
+                a {
                     font-size: 1.2rem;
                 }
             }
@@ -327,9 +344,9 @@ footer{
     }
 }
 
-@media (min-width:1026px){
-    .main-header{
-        &-container{
+@media (min-width:1026px) {
+    .main-header {
+        &-container {
             margin: 2rem 4rem;
         }
 
@@ -338,6 +355,7 @@ footer{
             translate: 0 0;
             background-color: transparent;
             transition: 0;
+
             &-links {
                 display: flex;
                 align-items: center;
@@ -350,6 +368,7 @@ footer{
 
                     a {
                         color: var(--neutral-100);
+
                         &:hover,
                         &:focus {
                             opacity: 80%;
@@ -357,29 +376,30 @@ footer{
                     }
                 }
             }
-    }
-    .hamburger{
-        display: none;
-    }
+        }
+
+        .hamburger {
+            display: none;
+        }
     }
 
-    .hero{
-        &-text{
-            h1{
+    .hero {
+        &-text {
+            h1 {
                 font-size: 4.5rem;
             }
 
-            p{
+            p {
                 font-size: 1.2rem;
                 padding-inline: 4rem;
             }
         }
     }
 
-    .footer-container{
-        &-links{
-            li{
-                a{
+    .footer-container {
+        &-links {
+            li {
+                a {
                     font-size: 1.2rem;
                 }
             }
