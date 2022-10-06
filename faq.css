@@ -3,6 +3,7 @@
     font-weight: bold;
     font-size: 41px;
     text-align: center;
+    color:white;
 }
 
 .text-small {
@@ -10,4 +11,15 @@
     font-size: 18px;
     text-align: center;
     margin: 100px;
+}
+
+.accordion {
+    
+    margin: 0 auto;
+    width: 50% !important;
+}
+
+.accordion-button {
+    background-color: rgb(0, 3, 20) !important;
+    color: white !important;
 }
