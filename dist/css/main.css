@@ -224,17 +224,19 @@ p {
 }
 
 footer {
-  margin-block: 2rem;
+  /* margin-block: 2rem; */
   margin-top: 0rem;
 }
 
 .footer-container {
+  background-color: rgb(7, 7, 78);
   margin-inline: auto;
-  margin-bottom: 1rem;
+  padding-top: 10px;
   display: grid;
   place-items: center;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1800px;
+  height: 150px;
 }
 .footer-container-links {
   display: flex;
@@ -252,7 +254,7 @@ footer {
 }
 
 .copyright {
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
   color: var(--neutral-500);
 }
