@@ -1,0 +1,13 @@
+.text-big {
+            font-family: 'Piazzolla', serif;
+            font-weight: bold;
+            font-size: 41px;
+            text-align: center;
+        }
+  
+.text-small {
+            font-family: 'Sansita Swashed', cursive;
+            font-size: 18px;
+            text-align: center;
+            margin: 100px;
+        }
