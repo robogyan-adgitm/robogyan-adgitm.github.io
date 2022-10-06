@@ -118,6 +118,6 @@ For more information on syncing forks [read this article from Github](https://he
 <br>
 
 ## Our Top Contributors 
-<p align="center"><a href="https://github.com/adgitm/robogyan-adgitm.github.io/graphs/contributors">
+<p align="center"><a href="https://github.com/robogyan-adgitm/robogyan-adgitm.github.io/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=robogyan-adgitm/robogyan-adgitm.github.io" />
 </a></p>
