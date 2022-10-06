@@ -23,7 +23,7 @@ html {
 
 body {
   font-family: var(--ubuntuMono);
-  background-color: var(--black-500);
+  background-color: var(--black-500) !important;
   color: var(--neutral-100);
 }
 
@@ -325,4 +325,5 @@ footer {
   .footer-container-links li a {
     font-size: 1.2rem;
   }
-} /*# sourceMappingURL=main.css.map */
+}
+
