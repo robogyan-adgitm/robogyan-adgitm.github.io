@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&family=Ubuntu:wght@500&display=swap");
 :root {
-  --neutral-100:#fff;
-  --neutral-500:#b1b1b1;
-  --black-100:#08080A;
-  --black-500:#03111C;
-  --pink-500:#DC3545;
-  --ubuntuMono:"Ubuntu Mono",
-      monospace;
-  --ubuntu:"Ubuntu",
-      sans-serif;
+  --neutral-100: #fff;
+  --neutral-500: #b1b1b1;
+  --black-100: #08080a;
+  --black-500: #03111c;
+  --pink-500: #dc3545;
+  --ubuntuMono: "Ubuntu Mono", monospace;
+  --ubuntu: "Ubuntu", sans-serif;
 }
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -29,8 +29,14 @@ body {
 
 li {
   list-style: none;
+  padding: 5px;
+  transition: 0.3s;
 }
-
+.navbar-links li:hover {
+  padding: 5spx;
+  border-radius: 5px;
+  background-color: #dc3545;
+}
 a {
   text-decoration: none;
   color: var(--neutral-100);
@@ -38,10 +44,13 @@ a {
 
 img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   font-size: 1rem;
 }
 
@@ -63,7 +72,8 @@ h1, h2, h3, p {
   z-index: -1;
 }
 
-.btn-register, .btn-apply {
+.btn-register,
+.btn-apply {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -74,14 +84,19 @@ h1, h2, h3, p {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   transition: all 0.4s ease-in-out;
 }
-.btn-register img, .btn-apply img {
+.btn-register img,
+.btn-apply img {
   width: 1.5rem;
 }
-.btn-register span, .btn-apply span {
+.btn-register span,
+.btn-apply span {
   display: none;
   font-size: 1.3rem;
 }
-.btn-register:hover, .btn-register:focus, .btn-apply:hover, .btn-apply:focus {
+.btn-register:hover,
+.btn-register:focus,
+.btn-apply:hover,
+.btn-apply:focus {
   scale: 1.09;
 }
 
@@ -115,7 +130,8 @@ h1, h2, h3, p {
   color: var(--black-500);
   font-weight: 700;
 }
-.main-header .navbar-links li a:hover, .main-header .navbar-links li a:focus {
+.main-header .navbar-links li a:hover,
+.main-header .navbar-links li a:focus {
   opacity: 80%;
 }
 .main-header .navbar-btns {
@@ -292,7 +308,8 @@ footer {
   .main-header .navbar-links li a {
     color: var(--neutral-100);
   }
-  .main-header .navbar-links li a:hover, .main-header .navbar-links li a:focus {
+  .main-header .navbar-links li a:hover,
+  .main-header .navbar-links li a:focus {
     opacity: 80%;
   }
   .main-header .hamburger {
@@ -308,4 +325,5 @@ footer {
   .footer-container-links li a {
     font-size: 1.2rem;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
