@@ -184,7 +184,7 @@ p {
 
 .hero {
   margin-top: 6rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   display: grid;
   grid-template-columns: 1fr;
   place-items: center;
@@ -328,4 +328,3 @@ footer {
     font-size: 1.2rem;
   }
 }
-
