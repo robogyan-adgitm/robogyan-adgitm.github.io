@@ -27,6 +27,27 @@ body {
   color: var(--neutral-100);
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to bottom, #dc3545, #e14d99, #ba7bde, #70a4ff, #00c2ff);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #dc3545;
+}
+
 li {
   list-style: none;
   padding: 5px;
