@@ -17,7 +17,7 @@
   color: #eee;
   font-size: 25px;
   cursor: pointer;
-  padding: 30px 20px;
+  padding: 25px 20px;
   width: 60%;
   border: none;
   outline: none;
@@ -27,12 +27,13 @@
 .faq-body {
   margin: auto;
   /* text-align: center; */
-  width: 50%;
+  width: 60%;
   padding: auto;
 }
 .faq-body p {
   font-size: large;
-  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
