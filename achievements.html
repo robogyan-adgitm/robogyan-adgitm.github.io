@@ -7,6 +7,7 @@
     <title>Robogyan | Home</title>
     <link rel="shortcut icon" href="assets/logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="dist/css/main.css" />
+    <link rel="stylesheet" href="dist/css/achievements.css" />
   </head>
 
   <body>
@@ -18,7 +19,7 @@
         <div class="navbar">
           <ul class="navbar-links">
             <li>
-              <a href="#">Home</a>
+              <a href="index.html">Home</a>
             </li>
             <li>
               <a href="./about.html">About us</a>
@@ -61,28 +62,45 @@
     <main>
       <section class="hero">
         <div class="hero-text">
-          <h1>Experience Engineering</h1>
-          <p>
-            With ultimate hands-on experience and unconfirmed exposure, Robogyan
-            gives you an opportunity to translate what you learn in textbooks to
-            reality. With a hoard of competition and hands-on activities always
-            on. Robogyan is the perfect platform to hone your engineering
-            skills.
-          </p>
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLScC47onBA9gTG68RdXVRjZQnIg1KHcy2pRoof7w6MIUhb67nA/viewform"
-            class="btn btn-apply"
-          >
-            Apply Now
-          </a>
+          <h1>Awards & Achievements </h1>
+          <p>Who Dares Wins</p>
         </div>
-        <div class="hero-image">
-          <img
-            src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-            alt=""
-          />
-        </div>
-      </section>
+
+<!-- Slideshow container -->
+<div class="slideshow-container fade">
+
+    
+    <div class="Containers">
+      <div class="MessageInfo">1 / 3</div>
+      <img src="https://img.freepik.com/free-vector/people-celebrating-goal-achievement-holding-trophy_23-2148825609.jpg?w=2000" style="width:100%">
+      <div class="Info">Achievement 1</div>
+    </div>
+  
+    <div class="Containers">
+      <div class="MessageInfo">2 / 3</div>
+      <img src="https://img.freepik.com/free-vector/achievement-concept-illustration_114360-5577.jpg?w=2000" style="width:100%">
+      <div class="Info">Achievement 2</div>
+    </div>
+  
+    <div class="Containers">
+      <div class="MessageInfo">3 / 3</div>
+      <img src="https://img.freepik.com/premium-vector/achievement-icon-design_24911-31178.jpg?w=2000" style="width:100%">
+      <div class="Info">Achievement 3</div>
+    </div>
+  
+    <!-- Back and forward buttons -->
+    <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  
+  <!-- The circles/dots -->
+  <div style="text-align:center ;margin-bottom:50px;">
+    <span class="dots" onclick="currentSlide(1)"></span>
+    <span class="dots" onclick="currentSlide(2)"></span>
+    <span class="dots" onclick="currentSlide(3)"></span>
+  </div> 
+  
+</section>
     </main>
     <footer>
       <div class="footer-container">
@@ -99,5 +117,6 @@
       </div>
     </footer>
     <script src="dist/js/main.js"></script>
+    <script src="dist/js/achievements.js"></script>
   </body>
 </html>
