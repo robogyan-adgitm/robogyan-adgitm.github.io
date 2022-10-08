@@ -6,7 +6,7 @@ contributors = [
   },
   {
     id: 2,
-    fullname: "Ashish",
+    fullname: "shutikshan madhur",
     username: "https://github.com/Madhur1808",
   },
 ];
