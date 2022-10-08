@@ -63,3 +63,18 @@
   content: "\2796";
   /* Unicode character for "minus" sign (-) */
 }
+
+#list-1{
+  font-size: 20px ;
+  display: flex;
+  text-decoration: underline;
+  justify-content: space-around;
+  width: 500px ;
+  margin: auto;
+  line-height: 2.2rem;
+  justify-items: left;
+}
+
+ul li{
+  font-size: 18px ;
+}
