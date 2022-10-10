@@ -1,13 +1,10 @@
 .text-big {
-            font-family: 'Piazzolla', serif;
-            font-weight: bold;
-            font-size: 41px;
-            text-align: center;
-        }
-  
+  font-weight: bold;
+  font-size: 100px;
+  text-align: center;
+}
+
 .text-small {
-            font-family: 'Sansita Swashed', cursive;
-            font-size: 18px;
-            text-align: center;
-            margin: 100px;
-        }
+  font-size: 18px;
+  text-align: center;
+}

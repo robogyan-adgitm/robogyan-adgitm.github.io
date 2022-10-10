@@ -5,6 +5,11 @@ contributors = [
     username: "https://github.com/ashishthehulk",
   },
   {
+    id: 1808,
+    fullname: "shutikshan madhur",
+    username: "https://github.com/Madhur1808",
+  },
+  {
     id: 2,
     fullname: "Mohit Gupta",
     username: "https://github.com/Mohit-15",
