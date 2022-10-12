@@ -8,3 +8,8 @@
   font-size: 18px;
   text-align: center;
 }
+a:visited { 
+ text-decoration: none; 
+ color: orange; 
+}
+
