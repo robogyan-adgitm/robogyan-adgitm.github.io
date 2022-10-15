@@ -19,4 +19,9 @@ contributors = [
     fullname: "Vansh Gupta",
     username: "https://github.com/vanshgupta-2024",
   },
+  {
+    id: 4,
+    fullname: "Ujen Basi",
+    username: "https://github.com/ujen5173",
+  },
 ];

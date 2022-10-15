@@ -1,15 +1,27 @@
-.text-big {
-  font-weight: bold;
-  font-size: 100px;
-  text-align: center;
+.about {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.intro {
+  font-size: 3.5rem;
+  margin: 1em 0;
 }
 
-.text-small {
-  font-size: 18px;
-  text-align: center;
+.welcome-text {
+  font-size: 2.5rem;
+  margin: 1em 0;
 }
-a:visited { 
- text-decoration: none; 
- color: orange; 
+.content p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: 1em 0;
 }
 
+ul {
+}
+
+.content ul li {
+  list-style-type: disc;
+  margin: 1em;
+  font-size: 1.5rem;
+}
