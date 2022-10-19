@@ -221,6 +221,34 @@ p {
   height: 100%;
 }
 
+/* bottom to top button */
+#btnScrollToTop {
+  display: none;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #dc3545;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  color: #141212;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#btnScrollToTop:hover {
+  background: #e9e1d9;
+  color: black;
+}
+
+#btnScrollToTop i {
+
+  font-size: 2rem;
+
+}
+
 footer {
   background: #040c12;
 }
