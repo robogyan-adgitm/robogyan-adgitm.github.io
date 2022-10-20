@@ -1,0 +1,30 @@
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    text-align: center;
+}
+body{
+    background-color: #03111c;
+    color:#dc3545;
+    
+}
+ul{
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: "Ubuntu Mono", monospace;
+    padding-left: 16rem ;
+    padding-right: 16rem;
+   
+}
+#footer{
+    background-color: rgb(8, 0, 0);
+    margin-top: 12rem;
+    margin-left:0;
+    margin-right:0;
+    color:white;
+    padding: 1rem 1rem   ;
+    text-align: center;
+}
