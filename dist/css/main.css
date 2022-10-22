@@ -221,6 +221,17 @@ p {
   height: 100%;
 }
 
+/* footer  */
+footer a{
+  font-weight: 600;
+}
+
+
+
+footer a:hover, h3{
+  color: lightcoral;
+}
+
 
 #btnScrollToTop {
   display: none;

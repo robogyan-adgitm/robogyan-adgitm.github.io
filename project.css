@@ -27,5 +27,18 @@ h2{
 .title-logo{
     font-size: 60px;
     margin-left: 10%;
+    color: lightcoral;
     
 }
+
+/* footer  */
+footer a{
+    font-weight: 600;
+}
+
+
+
+footer a:hover, h3{
+    color: lightcoral;
+}
+

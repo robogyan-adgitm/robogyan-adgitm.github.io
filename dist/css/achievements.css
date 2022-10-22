@@ -88,6 +88,21 @@
   animation-duration: 1.4s;
 }
 
+/* footer  */
+footer a{
+  font-weight: 600;
+}
+
+
+
+footer a:hover, h3{
+  color: lightcoral;
+}
+
+.hero-text h1{
+  color: lightcoral;
+}
+
 @-webkit-keyframes fade {
   from {
     opacity: 0.5;
