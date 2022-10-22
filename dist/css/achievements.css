@@ -96,7 +96,9 @@
     opacity: 2;
   }
 }
-
+.hero-text > p{
+ color: #fff;
+}
 @keyframes fade {
   from {
     opacity: 0.5;
