@@ -1,4 +1,4 @@
-h1{
+#ourObjectives{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     line-height: 1.5;
@@ -10,7 +10,7 @@ body{
     color:#dc3545;
     
 }
-ul{
+#objectivesList{
     color: white;
     font-size: 1.5rem;
     line-height: 1.5;
@@ -18,13 +18,4 @@ ul{
     padding-left: 16rem ;
     padding-right: 16rem;
    
-}
-#footer{
-    background-color: rgb(8, 0, 0);
-    margin-top: 12rem;
-    margin-left:0;
-    margin-right:0;
-    color:white;
-    padding: 1rem 1rem   ;
-    text-align: center;
 }
