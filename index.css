@@ -1,0 +1,13 @@
+.btn:hover{
+    border: 3px solid lightcoral;
+    background:transparent;
+    color: lightcoral;    
+}
+.title{
+    color: lightcoral;
+}
+
+p{
+    color: white;
+    font-weight: 600;
+}
