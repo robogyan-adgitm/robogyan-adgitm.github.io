@@ -111,7 +111,9 @@ footer a:hover, h3{
     opacity: 2;
   }
 }
-
+.hero-text > p{
+ color: #fff;
+}
 @keyframes fade {
   from {
     opacity: 0.5;

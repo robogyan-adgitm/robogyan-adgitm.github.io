@@ -6,7 +6,10 @@
     margin-bottom: 30px;
     float: left; /* stack each div horizontally */
 }
-
+body{
+    display: flex;
+    flex-direction: column;
+}
 img
 {
    border-radius: 10px;
