@@ -1,0 +1,24 @@
+.btn:hover{
+    border: 3px solid lightcoral;
+    background:transparent;
+    color: lightcoral;    
+}
+.title{
+    color: lightcoral;
+}
+
+p{
+    color: white;
+    font-weight: 600;
+}
+
+/* footer  */
+footer a{
+    font-weight: 600;
+}
+
+
+
+footer a:hover, h3{
+    color: lightcoral;
+}
