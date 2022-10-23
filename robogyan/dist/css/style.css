@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#title {
+  /*background-image: url("https://i.pinimg.com/736x/db/1b/61/db1b614d498e14e8483e36570348f1a8.jpg");*/
+  background-image: url(./newbackground.jpg);
+  color: white;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+}
+
+/* h1{
+    font-family: Montserrat-Black;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: rgb(236, 243, 243)  ;
+} */
+
+h5 {
+  color: white;
+  text-align: justify;
+}
+
+.container-fluid {
+  padding: 3% 5%;
+}
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.3rem;
+  /* font-size: 2rem; */
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* navbar hamburger animation script */
+#nav-icon-animation {
+  width: 60px;
+  height: 45px;
+  position: relative;
+  margin: 50px 20px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+#nav-icon-animation span {
+  display: block;
+  position: absolute;
+  height: 9px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+
+/* Icon 4 */
+
+#nav-icon-animation {
+}
+
+#nav-icon-animation span:nth-child(1) {
+  top: 0px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#nav-icon-animation span:nth-child(2) {
+  top: 18px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#nav-icon-animation span:nth-child(3) {
+  top: 36px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#nav-icon-animation.open span:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: -3px;
+  left: 8px;
+}
+
+#nav-icon-animation.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+#nav-icon-animation.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 39px;
+  left: 8px;
+}
+
+/* navbar hamburger animation script END */
+
+.btn-download {
+  margin: 5% 3% 5% 0;
+}
+footer {
+  background-color: #333;
+  overflow: hidden;
+}
+
+footer a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  float: left;
+}
+
+.waviy {
+  position: relative;
+}
+.waviy span {
+  font-family: Montserrat-Black;
+  position: relative;
+  display: inline-block;
+  font-size: 50px;
+  color: #fff;
+  /* text-transform: uppercase; */
+  animation: flip 2s infinite;
+  animation-delay: calc(0.2s * var(--i));
+}
+@keyframes flip {
+  0%,
+  80% {
+    transform: rotateY(360deg);
+  }
+}
