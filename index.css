@@ -11,3 +11,16 @@ p{
     color: white;
     font-weight: 600;
 }
+
+
+/* footer  */
+footer a{
+    font-weight: 600;
+}
+
+
+
+footer a:hover, h3{
+    color: lightcoral;
+}
+
