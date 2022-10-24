@@ -12,7 +12,81 @@ p{
     font-weight: 600;
 }
 
+.navbar a{
+    font-size: 18px;
+}
+
+.title-font{
+    font-size: 50px;
+    color: lightcoral;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.mb-8{
+    font-size: 30px;
+    margin: 30px;
+}
+
+.object-cover{
+    margin-bottom: 50px;
+}
+
+label{
+    font-size: 30px;
+    color: lightcoral;
+    font-weight: 600;
+}
+
+
+.text-gray-400 .container.mx-auto .text-center{
+    text-align: center;
+
+}
+
+#hero-field{
+    font-size: 20px;
+    font-weight: 600;
+    background: transparent;
+    border: 5px solid lightcoral;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+#butt{
+    font-size: 30px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: none;
+    margin: 20px;
+    color:white;
+    background-color: var(--pink-500);
+}
+
+#butt:hover{
+    border: 5px solid lightcoral;
+    background: transparent;
+    color: lightcoral;
+    transition: 0.2s;
+}
+
+.bg-gray-800{
+    margin: 10px;
+}
+
+.text-xs{
+    font-weight: 600;
+}
+
+
+
+
 /* footer  */
+footer{
+    margin-top: 100px;
+}
+
 footer a{
     font-weight: 600;
 }
@@ -22,3 +96,4 @@ footer a{
 footer a:hover, h3{
     color: lightcoral;
 }
+
