@@ -78,3 +78,14 @@
 ul li{
   font-size: 18px ;
 }
+
+/* footer  */
+footer a{
+  font-weight: 600;
+}
+
+
+
+footer a:hover, h3{
+  color: lightcoral;
+}
