@@ -6,6 +6,11 @@
     margin-bottom: 30px;
     float: left; /* stack each div horizontally */
 }
+
+.navbar a{
+    font-size: 18px;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -97,4 +102,10 @@ img
   
     margin: 90px;
     
+}
+
+.btn:hover{
+    border: 3px solid lightcoral;
+    background:transparent;
+    color: lightcoral;    
 }

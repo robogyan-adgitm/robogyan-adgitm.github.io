@@ -9,6 +9,16 @@
   margin: auto;
 }
 
+.btn:hover{
+  border: 3px solid lightcoral;
+  background:transparent;
+  color: lightcoral;    
+}
+
+.navbar a{
+  font-size: 18px;
+}
+
 /* Make the images invisible by default */
 .Containers {
   display: none;

@@ -118,6 +118,15 @@ p {
   flex-direction: column;
   gap: 2rem;
 }
+.text-big{
+  color: lightcoral;
+}
+
+.btn:hover{
+  border: 3px solid lightcoral;
+  background:transparent;
+  color: lightcoral;    
+}
 .main-header .navbar-links li {
   font-size: 1.4rem;
 }
@@ -127,6 +136,7 @@ p {
 }
 .main-header .navbar-links li a:hover, .main-header .navbar-links li a:focus {
   opacity: 80%;
+  color: lightcoral;
 }
 .main-header .navbar-btns {
   display: flex;
@@ -378,6 +388,20 @@ footer .copyright {
   right: 0;
   bottom: 0%;
   z-index: -1;
+}
+
+.navbar a{
+  font-size: 18px;
+}
+
+
+#ourObjectives{
+  color: lightcoral;
+  margin-bottom: 50px;
+}
+
+#objectivesList{
+  text-align: center;
 }
 
 @media (min-aspect-ratio: 16/9){
