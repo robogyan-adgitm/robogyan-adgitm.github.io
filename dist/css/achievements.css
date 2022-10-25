@@ -9,6 +9,16 @@
   margin: auto;
 }
 
+.btn:hover{
+  border: 3px solid lightcoral;
+  background:transparent;
+  color: lightcoral;    
+}
+
+.navbar a{
+  font-size: 18px;
+}
+
 /* Make the images invisible by default */
 .Containers {
   display: none;
@@ -86,6 +96,21 @@
   -webkit-animation-duration: 1.4s;
   animation-name: fade;
   animation-duration: 1.4s;
+}
+
+/* footer  */
+footer a{
+  font-weight: 600;
+}
+
+
+
+footer a:hover, h3{
+  color: lightcoral;
+}
+
+.hero-text h1{
+  color: lightcoral;
 }
 
 @-webkit-keyframes fade {

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&family=Ubuntu:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&family=Ubuntu:wght@500&family=Russo+One&display=swap");
 :root {
   --neutral-100: #fff;
   --neutral-500: #b1b1b1;
@@ -52,9 +52,11 @@ p {
   display: inline-block;
   font-size: 2rem;
   position: relative;
+  font-family: 'Russo One', sans-serif;
+  font-weight: inherit;
 }
 .logo h1::after {
-  content: "";
+  /* content: ""; */
   position: absolute;
   top: 50%;
   right: -0.5rem;
@@ -116,6 +118,15 @@ p {
   flex-direction: column;
   gap: 2rem;
 }
+.text-big{
+  color: lightcoral;
+}
+
+.btn:hover{
+  border: 3px solid lightcoral;
+  background:transparent;
+  color: lightcoral;    
+}
 .main-header .navbar-links li {
   font-size: 1.4rem;
 }
@@ -125,6 +136,7 @@ p {
 }
 .main-header .navbar-links li a:hover, .main-header .navbar-links li a:focus {
   opacity: 80%;
+  color: lightcoral;
 }
 .main-header .navbar-btns {
   display: flex;
@@ -219,6 +231,17 @@ p {
   border-radius: 1rem;
   width: 100%;
   height: 100%;
+}
+
+/* footer  */
+footer a{
+  font-weight: 600;
+}
+
+
+
+footer a:hover, h3{
+  color: lightcoral;
 }
 
 
@@ -365,6 +388,20 @@ footer .copyright {
   right: 0;
   bottom: 0%;
   z-index: -1;
+}
+
+.navbar a{
+  font-size: 18px;
+}
+
+
+#ourObjectives{
+  color: lightcoral;
+  margin-bottom: 50px;
+}
+
+#objectivesList{
+  text-align: center;
 }
 
 @media (min-aspect-ratio: 16/9){

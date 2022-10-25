@@ -2,14 +2,28 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.navbar a{
+  font-size: 18px;
+}
+
 .intro {
   font-size: 3.5rem;
   margin: 1em 0;
+  color: lightcoral;
+}
+
+.btn:hover{
+  border: 3px solid lightcoral;
+  background:transparent;
+  color: lightcoral;    
 }
 
 .welcome-text {
   font-size: 2.5rem;
   margin: 1em 0;
+  color: lightcoral;
+
 }
 .content p {
   font-size: 1.5rem;
@@ -25,3 +39,15 @@ ul {
   margin: 1em;
   font-size: 1.5rem;
 }
+
+/* footer  */
+footer a{
+  font-weight: 600;
+}
+
+
+
+footer a:hover, h3{
+  color: lightcoral;
+}
+
