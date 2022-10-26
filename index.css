@@ -12,6 +12,7 @@ p{
     font-weight: 600;
 }
 
+
 .navbar a{
     font-size: 18px;
 }
@@ -86,11 +87,8 @@ label{
 
 
 
-/* footer  */
-footer{
-    margin-top: 100px;
-}
 
+/* footer  */
 footer a{
     font-weight: 600;
 }
@@ -100,4 +98,3 @@ footer a{
 footer a:hover, h3{
     color: lightcoral;
 }
-
