@@ -30,3 +30,18 @@ h2{
     
 }
 
+
+/* footer  */
+footer a{
+    font-weight: 600;
+}
+
+
+
+footer a:hover, h3{
+    color: lightcoral;
+}
+
+
+
+
