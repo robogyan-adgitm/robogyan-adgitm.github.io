@@ -25,6 +25,8 @@ body {
   font-family: var(--ubuntuMono);
   background-color: var(--black-500);
   color: var(--neutral-100);
+  /* margin:10px; */
+  padding: 5px;
 }
 
 li {
