@@ -1023,8 +1023,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   line-height: 1px;
   font-weight: 700;
-  margin-bottom: 18px;
-  padding-bottom: 0;
 }
 
 #portfolio .portfolio-item .portfolio-info h4 a {
@@ -1043,6 +1041,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   text-transform: uppercase;
 }
+
 
 /* Clients Section
 --------------------------------*/
@@ -1167,7 +1166,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   margin-bottom: 20px;
   background: #000;
-  position: relative;
+  position: relative;        /* Fixed height */
+  overflow: hidden;        /* Prevent content from overflowing */
+  border-radius: 16px;     /* Optional: Rounded corners for a sleeker look */
 }
 
 #team .member .member-info {
@@ -1244,6 +1245,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #contact {
+  background: #fff;
   padding: 60px 0;
 }
 
@@ -1572,3 +1574,127 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: inline;
   }
 }
+
+/* legacy teams section */
+.team-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 30px 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.team-card img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 20px; /* squircle shape */
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-card h4 {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.team-card p {
+  font-size: 15px;
+  color: #666;
+  margin: 0;
+}
+
+.team-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+/* Larger cards for president & VP */
+.team-card-lg {
+  padding: 40px 25px;
+}
+
+.team-card-lg img {
+  width: 180px;
+  height: 200px;
+  border-radius: 24px;
+}
+/* legacy teams section */
+
+/* legacy years section */
+.scroll-wrapper {
+  position: relative;
+  margin-top: 40px;
+}
+
+.scroll-container {
+  display: flex;
+  gap: 30px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 20px 10px;
+  scrollbar-width: none;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.year-card {
+  flex: 0 0 calc((100% - 60px) / 3); /* 3 items with 2 gaps of 30px */
+  max-width: 300px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.year-card img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 24px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.year-card h4 {
+  font-size: 16px;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.year-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.15);
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  border: none;
+  font-size: 24px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  cursor: pointer;
+  z-index: 10;
+}
+
+.scroll-btn.left {
+  left: -20px;
+}
+
+.scroll-btn.right {
+  right: -20px;
+}
+
+
+ /* legacy years section */
