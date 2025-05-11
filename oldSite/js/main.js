@@ -273,3 +273,9 @@ document.addEventListener('touchStart', (evt) => {
 
 })(jQuery);
 
+
+function scrollYears(direction) {
+    const container = document.getElementById('scrollContainer');
+    const scrollAmount = 250;
+    container.scrollBy({ left: scrollAmount * direction, behavior: 'smooth' });
+  };

@@ -34,4 +34,9 @@ contributors = [
     fullname: "Arushee Verma",
     username: "https://github.com/ArusheeVerma",
   },
+  {
+    id: 7,
+    fullname: "Amogh Saxena",
+    username: "https://github.com/SaxenaAmogh",
+  }
 ];
